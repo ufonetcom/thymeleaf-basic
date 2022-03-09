@@ -65,6 +65,7 @@ public class BasicController {
         }
     }
 
+    //날짜
     @GetMapping("/date")
     public String date(Model model) {
         model.addAttribute("localDateTime", LocalDateTime.now());
